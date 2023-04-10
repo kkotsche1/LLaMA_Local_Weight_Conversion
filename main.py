@@ -15,7 +15,7 @@ subprocess.run(command)
 
 model_size = "7B"
 input_dir = 'C:/Users/Admin/Downloads/LLaMA'
-output_dir = './vicuna_7b_hf'
+output_dir = './llama_7b_hf'
 
 #Conversion
 command = ['python', 'convert_llama_weights_to_hf.py', '--input_dir', input_dir, '--model_size', model_size, '--output_dir', output_dir]
